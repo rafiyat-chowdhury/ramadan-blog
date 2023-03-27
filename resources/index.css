@@ -1,0 +1,122 @@
+nav li {
+    display: inline;
+    margin-right: 100px;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+}
+
+nav {
+    box-sizing: border-box;
+    background-color: white;
+    border-bottom: 1px solid #dddddd;
+    left: 0px;
+    overflow-y: auto;
+    padding: 30px;
+    position: fixed;
+    text-align: center;
+    top: 0px;
+    width: 100%;
+    z-index: 999;
+
+}
+
+header {
+    text-align: center;
+    color: beige;
+    font-family: 'Delicious Handrawn', cursive , Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Delicious Handrawn', cursive, Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+footer {
+    box-sizing: border-box;
+    background-color: white;
+    border-top: 1px solid white;
+    left: 0px;
+    overflow-y: auto;
+    padding: 10px;
+    width: 100%;
+}
+
+footer li {
+    display: inline;
+    margin-right: 250px;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+}
+
+body {
+    font-family: 'Mynerve', cursive, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    word-spacing: 5px;
+    line-height: 1.8;
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+
+ol {
+    text-align: left;
+}
+
+.banner {
+    background-image: url("./ramadan-img.jpg");
+    background-position: center top;
+    background-size: cover;
+    border-bottom: 1px solid white;
+    height: 700px;
+    position: relative;
+    text-align: center;
+    top: 100px;
+    width: 100%;
+}
+
+.content {
+    background-image: url("./Ramadan\ 2020.png");
+    background-position: center top;
+    background-size: cover;
+    border-bottom: 1px solid white;
+    margin: 0 auto;
+    overflow-y: auto;
+    padding: 80px 0px;
+    position: relative;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.contact, .navbar {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: underline;
+    box-shadow: 0px 5px;
+}
+
+.contact:hover  {
+    color: #ECF2FF;
+    background-color: #3E54AC;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navbar:hover {
+    color: #ECF2FF;
+    background-color: #3E54AC;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a {
+    color: black;
+}
